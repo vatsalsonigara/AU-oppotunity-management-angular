@@ -1,0 +1,19 @@
+<div  style=" border-radius: 10px;margin-left: auto;margin-right: auto; width: 20% ;border: 2px solid black; padding:50px;">
+    <p style="color: blueviolet">Login into your account</p>
+    <form style="width:100%; " action="/hello" method="GET">
+    <mat-form-field style ="width:100%" appearance="fill">
+      <mat-label>Username or Email</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field  style ="width:100%"appearance="fill">
+        <mat-label>Password</mat-label>
+        <input matInput type="password">
+      </mat-form-field>
+      <br>
+    <button type="submit" style="width:100% ;"mat-raised-button color="primary">Login</button>
+    <br>
+    <br>
+    <button onclick="loginWithGoogle()" style="width:100% ;background-color: red;" mat-raised-button color="primary">Login with Google</button>
+    </form>
+</div>
